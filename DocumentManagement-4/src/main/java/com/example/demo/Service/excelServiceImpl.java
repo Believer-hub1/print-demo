@@ -13,7 +13,7 @@ public class excelServiceImpl extends DocumentAbstract{
 	@Override
 	public String printData() {
 		System.out.println("Excel Printed ");
-		return "PRINTING EXCEL";
+		return "PRINTING EXCEL FOR SERVER";
 	}
 
 }
