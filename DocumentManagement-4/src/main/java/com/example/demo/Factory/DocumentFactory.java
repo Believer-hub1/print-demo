@@ -1,6 +1,7 @@
 package com.example.demo.Factory;
 
 import com.example.demo.Service.DocumentServiceInterface;
+import com.example.demo.Service.TextServiceImpl;
 import com.example.demo.Service.excelServiceImpl;
 import com.example.demo.Service.pdfServiceImpl;
 import com.example.demo.Service.wordServiceImpl;
@@ -18,6 +19,8 @@ public class DocumentFactory {
 		
 		if("wordService".equals(type))
 			return new wordServiceImpl();
+		if("textService".equals(type))
+			return new TextServiceImpl();
 		
 		return null;
 		
