@@ -4,8 +4,7 @@ public class ZipServiceImpl extends DocumentAbstract {
 
 	@Override
 	public void processData() {
-		System.out.println("Process Data for Zip");
-		
+		System.out.println("Process Data for Zip");	
 	}
 
 	@Override
